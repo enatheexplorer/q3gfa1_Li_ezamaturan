@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFA Problem #3</title>
+</head>
+<body>
+    <script>
+        var nickname = "Star";
+        var height= 61;
+        var weight = 46;
+
+        var heightFeet = height/12;
+        var heightString = heightFeet.toString();
+        var weightLbs = weight * 2.205;
+        
+        if(confirm("Hello! Do you consent us to share your personal information in our website?")){
+            console.log("Name: " + nickname + "\nHeight: " + heightString.charAt(0) + "'" + heightString.charAt(3) + '"\nWeight: ' + weightLbs + " lbs");
+        }
+        else{
+            console.log("User does not wish to share his/her information.");
+        }
+    </script>
+</body>
+</html>

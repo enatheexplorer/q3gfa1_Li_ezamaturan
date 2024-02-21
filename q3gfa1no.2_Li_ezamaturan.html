@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GFA Problem #2</title>
+</head>
+<body>
+    <h1 id="output"></h1>
+
+    <script>
+        var firstName = prompt("Hello! Can you please enter you first name please?");
+        var lastName = prompt("Thank you! Can you now please enter your last name?");
+        var birthYear = prompt("Thank you! Now, for the last time, can you please enter you birth year?");
+
+        var estimatedAge = 2024 - birthYear;
+
+        document.getElementById('output').textContent = "Hello " + firstName + " " + lastName + "! How does it feel to be " + estimatedAge + " years old?";
+    </script>
+</body>
+</html>
